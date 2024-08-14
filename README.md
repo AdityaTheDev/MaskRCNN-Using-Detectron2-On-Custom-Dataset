@@ -30,5 +30,10 @@ Object detection and segmentation are critical tasks in computer vision, with ap
 ### Results
 The implemented Mask R-CNN model demonstrated effective object detection and segmentation capabilities, achieving high accuracy despite the limited size of the training dataset. The results underscore the model's potential for application in similar small-scale datasets and further refinement for larger-scale applications.
 
+## Here are some of results:
+![Dog Image](results/dog_res.png)
+![Cat Image](results/cat_res.png)
+
+
 ### Conclusion
 This project highlights the feasibility of using custom datasets in conjunction with advanced object detection models to achieve high-performance results. The challenges encountered, including data annotation and preprocessing, provide valuable insights for future endeavors in the field of computer vision.
