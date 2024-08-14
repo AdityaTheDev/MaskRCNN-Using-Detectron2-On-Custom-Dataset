@@ -16,8 +16,8 @@ Object detection and segmentation are critical tasks in computer vision, with ap
    - Each image was manually annotated using the Labelme tool, resulting in precise object boundary definitions.
 
 3. **Data Preprocessing**:
-   - Initial attempts to train the model were hindered by image size mismatches (expected: 224x224 pixels; actual: varied).
-   - To resolve this, all images were programmatically resized to 600x800 pixels, necessitating re-annotation of the entire dataset.
+   - Initial attempts to train the model were hindered by image size mismatches (expected: 224x224 pixels; actual: varied like 576x375, 250x476 etc).
+   - To resolve this, wrote a python script and all images were programmatically resized to 600x800 pixels, necessitating re-annotation of the entire dataset using Labelme tool.
 
 4. **Model Implementation**:
    - The environment was configured using Google Colab, with necessary libraries including PyTorch and Detectron2 installed.
